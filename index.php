@@ -20,9 +20,7 @@
             include('oeuvres.php'); // Tableau des Oeuvres 
             foreach ($oeuvres as $data) :
         ?>
-        
         <!-- Page d’accueil -->
-
             <article class="oeuvre">
                 <a href="oeuvre.php?id=<?php echo $data['id'] ?>">
                     <img src="<?php echo $data['lien'] ?>" alt="<?php echo $data['alt'] ?>">

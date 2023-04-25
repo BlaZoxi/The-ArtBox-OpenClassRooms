@@ -2,6 +2,7 @@
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,12 +11,14 @@
     <title>The ArtBox</title>
 </head>
 
-<!-- Header The ArtBox -->
-<header>
-    <a href="index.php"><img src="img/logo.png" alt="Logo Artbox" id="logo"></a>
+<body>
+
+    <!-- Header The ArtBox -->
+    <header>
+        <a href="index.php"><img src="img/logo.png" alt="Logo Artbox" id="logo"></a>
         <nav>
             <ul>
                 <li><a href="index.php">Accueil</a></li>
             </ul>
         </nav>
-</header>
+    </header>

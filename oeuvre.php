@@ -1,14 +1,12 @@
-<?php
-if (!isset($_GET['id'])) {
-    header("location:index.php");
-}
-?>
-
-<body>
-
     <?php
-    include('header.php');  // Header The ArtBox
+    include('header.php');  // Header The ArtBox 
+
     include('oeuvres.php'); //Tableau des Oeuvres
+
+    if (!isset($_GET['id']) || !array_key_exists($_GET['id'], $oeuvres)) {
+        header("Location: index.php");
+    }
+
     ?>
 
     <main>
@@ -43,6 +41,6 @@ if (!isset($_GET['id'])) {
     <?php include('footer.php'); // Footer The ArtBox 
     ?>
 
-</body>
+    </body>
 
-</html>
+    </html>
